@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.33ce4710.css",
+    "main.js": "/build/static/js/main.538e7eb1.js",
+    "static/js/787.1ed0c42c.chunk.js": "/build/static/js/787.1ed0c42c.chunk.js",
+    "static/media/BlackHanSans-Regular.woff": "/build/static/media/BlackHanSans-Regular.29874312663f4d00ebc0.woff",
+    "static/media/img1.png": "/build/static/media/img1.b8c8696a1c91b8194cf6.png",
+    "index.html": "/build/index.html",
+    "main.33ce4710.css.map": "/build/static/css/main.33ce4710.css.map",
+    "main.538e7eb1.js.map": "/build/static/js/main.538e7eb1.js.map",
+    "787.1ed0c42c.chunk.js.map": "/build/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33ce4710.css",
+    "static/js/main.538e7eb1.js"
+  ]
+}
