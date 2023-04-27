@@ -1,0 +1,154 @@
+@charset "utf-8";
+@font-face {
+  font-family: main1;
+  src: url(font/BlackHanSans-Regular.woff) format(woff);
+}
+@font-face {
+  font-family: sub1;
+  src: url(font/NanumSquareR.woff) format(woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sub1;
+  font-size: 18px;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background-color: #333;
+  font-family: sub1;
+  color: #fff;
+}
+.Wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.page {
+  height: 60vh;
+}
+.title {
+  color: #ff4500;
+  font-family: main1;
+  letter-spacing: 5px;
+  text-align: right;
+  font-size: 50px;
+  margin: 50px 0;
+}
+.intro {
+  margin: 0 auto;
+  width: 600px;
+  text-align: right;
+}
+.page1 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.gnbWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.gnb > ul {
+  margin-top: 95px;
+  display: flex;
+}
+.gnb > ul > li {
+  margin-right: 20px;
+}
+.gnb a {
+  font-family: main1;
+  font-size: 25px;
+  color: #fff;
+}
+.gnb a:hover {
+  color: #ff4500;
+}
+
+.intropWrap {
+  font: sub1;
+  text-align: right;
+}
+.intropWrap > p > span {
+  padding: 0 10px;
+  font-size: 24px;
+  color: #fff;
+}
+.intropWrap > p > span:hover {
+  color: #ff4500;
+}
+.intropWrap > ul {
+  margin: 10px 0;
+  color: #fff;
+}
+.page {
+  margin-top: 15px;
+  height: 65vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.content {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.content > div {
+  width: 100%;
+
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contentTitle {
+  font-size: 30px;
+  margin: 30px 0;
+}
+.contentWrap {
+  display: flex;
+}
+
+.contentText {
+  width: 60%;
+  line-height: 40px;
+  padding-left: 40px;
+  letter-spacing: 1px;
+}
+.contentText > span {
+  font-size: 20px;
+  font-family: main1;
+  color: #ccc;
+}
+.btn {
+  background-color: #ccc;
+  border-radius: 30px;
+  padding: 10px;
+  width: 70px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  float: right;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #ff4500;
+}
+.arrow {
+  position: absolute;
+  z-index: -100;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  color: #ff4500;
+}
