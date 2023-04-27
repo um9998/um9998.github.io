@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      @font-face {
+        font-family: main1;
+        src: url(./font/Jalnan.woff) format(woff);
+      }
+      @font-face {
+        font-family: main2;
+        src: url(./font/NanumSquareR.woff) format(woff);
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      ul {
+        list-style: none;
+      }
+      img {
+        max-width: 100%;
+      }
+      .wrap {
+        background-color: #f5f3ef;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>유성구 동물병원</h1>
+      <div class="inputBtn">
+        <div class="inputWrap">
+          <input id="input" type="text" placeholder="지역(동)을 검색하세요" />
+          <button id="btn">검색</button>
+        </div>
+      </div>
+      <div class="card" id="card"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
